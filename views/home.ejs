@@ -1,22 +1,25 @@
 <%- include('header'); -%>
 
-    <div style=" margin-top: 30px; width: 500px ; height: 200px; ">
+    <div style=" margin-bottom: 10%; ">
         <h1>
             <%-title-%>
         </h1>
-
         <%post.forEach((post)=> {%>
-            <h1>
+            <img src="<%=post.imageUrl%>">
+            <h3>
                 <%=post.title%>
-            </h1>
+            </h3>
             <p>
                 <!-- add title name to page route -->
                 <!-- "/post/<%=post.title%>" -->
-                <%=post.content.substring(0, 50)+ " ..." %>
-                <a href="/post/<%=post.title%>">Read More</a>
+                Description : <%=post.content.substring(0, 50)+ " ..." %>
+                    <a href="/post/<%=post.title%> ">Read More</a>
             </p>
-           
-        
+
+
+
+
+
             <%})%>
 
     </div>
