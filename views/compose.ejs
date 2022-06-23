@@ -1,0 +1,28 @@
+<%- include('header'); -%>
+
+    <body>
+        <div class="container">
+            <h1>Compose</h1>
+
+            <form action="/compose" method="POST">
+                <label for="titleInput">
+                    <h5>Title</h5>
+                </label><br>
+                <input class="form-control" type="text" name="titleInput" placeholder="Add a Title">
+                <label for="textInput">
+                    <h3>Post</h3>
+                </label><br>
+                <textarea class="form-control" name="textInput" id="" cols="50" rows="10" placeholder="type here"
+                    required></textarea><br>
+                <button type="submit">Publish</button>
+            </form>
+
+
+
+
+
+        </div>
+
+
+    </body>
+    <%- include('footer'); -%>

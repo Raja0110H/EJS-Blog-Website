@@ -1,0 +1,27 @@
+<%- include('header'); -%>
+
+    <div style=" margin-top: 30px; width: 500px ; height: 200px; ">
+        <h1>
+            <%-title-%>
+        </h1>
+
+        <%post.forEach((post)=> {%>
+            <h1>
+                <%=post.title%>
+            </h1>
+            <p>
+                <!-- add title name to page route -->
+                <!-- "/post/<%=post.title%>" -->
+                <%=post.content.substring(0, 50)+ " ..." %>
+                <a href="/post/<%=post.title%>">Read More</a>
+            </p>
+           
+        
+            <%})%>
+
+    </div>
+
+
+
+
+    <%- include('footer'); -%>
