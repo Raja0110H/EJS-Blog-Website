@@ -1,3 +1,8 @@
+
+form{
+  height:100vh;
+  margin-top: -3%
+}
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -20,7 +25,6 @@
 }
 
 .footer {
-
   position: fixed;
   text-align: center;
   bottom: 0;

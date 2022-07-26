@@ -6,9 +6,9 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const homeTitle = "";
 const homePost = `<h1 style= " opacity:50% ;  text-align: center">No Blog Post Yet !!!</h1> <img src="https://i.morioh.com/200919/f293d32f.webp" 
-                alt="" style="width: 250% ; height: 600px; margin-top: 20px ;" >`;
+                alt="" style="width: 80em ; height: 600px; margin-top: 20px ;" >`;
 const aboutContent = `
-<div style= "margin-top:10% ; font-size:20px ">
+<div style= "margin-top:2% ; font-size:20px ">
 <p>👋 Hi, My name is Raja, you can call me Rj</p>
  <p>🌱 I’m a FrontEnd-Developer,On the road to becoming a MernStack developer</p>
 <p>I enjoy learning new Technologies.</p>
@@ -26,7 +26,7 @@ const contactContent = `<h1 style= " ;  text-align: center">Contact me</h1>
 <h3>Name:  Raja Hamilton</h3> <h3>
 Email:  Rajahamilton0110@gmail.com</h3>
 <h3>Phone:  786-916-4933</h3>
-<strong><p style= "margin-top:30% ; text-align: center ;font-size:30px">Thank you for your consideration</p></strong>
+<strong><p style= "margin-top:10% ; text-align: center ;font-size:30px">Thank you for your consideration</p></strong>
 `;
 
 const app = express();
